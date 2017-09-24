@@ -1,0 +1,111 @@
+Return-Path: <bounces+5066301-b919-edi=faden.io@sendgrid.net>
+Received: from mx1.aarboard.ch (mx1.aarboard.ch [78.46.48.48]) by mail (Cyrus v2.3.16-Debian-2.3.16-1) with LMTPA; Sat, 23 Sep 2017 03:08:08 +0200
+Received: from localhost (localhost [127.0.0.1]) by mx1.aarboard.ch (Postfix) with ESMTP id B5FFE34E504 for <edi@faden.io>; Sat, 23 Sep 2017 03:08:08 +0200
+Received: from mx1.aarboard.ch ([127.0.0.1]) by localhost (mx1.aarboard.ch [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id zb7X4k8VZcgV for <edi@faden.io>; Sat, 23 Sep 2017 03:08:05 +0200
+Received: from o2.lv30nn.shared.sendgrid.net (o2.lv30nn.shared.sendgrid.net [50.31.63.50]) (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits)) (No client certificate requested) by mx1.aarboard.ch (Postfix) with ESMTPS id 5FB5734E515 for <edi@faden.io>; Sat, 23 Sep 2017 03:07:59 +0200
+Received: by filter0022p3mdw1.sendgrid.net with SMTP id
+ filter0022p3mdw1-19541-59C5B3ED-E 2017-09-23 01:07:57.472146832 +0000 UTC
+Received: from nile.ch (sv11.aarboard.ch [178.63.42.144]) by
+ ismtpd0002p1lon1.sendgrid.net (SG) with ESMTP id _0YzsStgRkCYEg0H7-lG6Q Sat,
+ 23 Sep 2017 01:07:57.280 +0000 (UTC)
+Date: Sat, 23 Sep 2017 01:07:57 +0000
+From: NILE EDI <edi@nile.ch>
+To: edi@faden.io, 
+ EDI-Daten@bedebe.de
+Message-ID: <59c5b3ed112ec_57b893d208103569@sv11.mail>
+Subject: NILE EDI - Lieferschein No. 108131 : Gebr.Leffers GmbH & Co.KG
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_59c5b3ed10919_57b893d2081034a4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Sieve: CMU Sieve 2.3
+X-Virus-Scanned: Debian amavisd-new at mx1.aarboard.ch
+X-Spam-Flag: NO
+X-Spam-Score: 2.869
+X-Spam-Level: **
+X-Spam-Status: No, score=2.869 tagged_above=-10 required=4.51
+ tests=[DKIM_SIGNED=0.1, DKIM_VALID=-0.1, HEADER_FROM_DIFFERENT_DOMAINS=0.001,
+ HTML_IMAGE_ONLY_12=1.629, HTML_MESSAGE=0.001, LOCAL_RCVD_IN_APEWS2_RBL=1,
+ RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, RP_MATCHES_RCVD=-0.001,
+ SPF_PASS=-0.001, T_REMOTE_IMAGE=0.01, URIBL_GREY=0.25] autolearn=disabled
+Authentication-Results: mx1.aarboard.ch (amavisd-new); dkim=pass (1024-bit
+ key) header.d=sendgrid.net
+Received-SPF: Pass ('sender SPF authorized') identity=mailfrom;
+ client-ip=50.31.63.50; helo=o2.lv30nn.shared.sendgrid.net;
+ envelope-from=bounces+5066301-b919-edi=faden.io@sendgrid.net;
+ receiver=edi@faden.io;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=sendgrid.net;
+ h=from:to:subject:mime-version:content-type:content-transfer-encoding;
+ s=smtpapi; bh=VMF82EiREkGod+GXvORV48uOF30=; b=mdsw8E9gr7ZZFcDsMo
+ NVah+a4AgDw+bwyQWH8xiMlMqlRXxAe9wkPicPHSLMcBcKx1fuoyHaCTfOAAqJn5
+ 3LDKdua7jsrdETUqzubGrhS7CPKCaCRTXtkuRXLQ/bHUqae8IeoXJHZS0nTgTrhb
+ 6P+8Z34hY1O4gGier0DF02+f4=
+X-SG-EID: fKTQw5Z2qW5r9tYeNP1td6PHG9eGcZtPknIA+22wrOSL/FXcCwF2+lkUbNKMnNhwIKowCcZXKxYCm4
+ x2mnO+z4gcddx9FyktRGN3mX6cE8nskCrlYnnvwmiRuI7xMJTOqpcOtLKo99DxI2K490Bdz73RW3zW
+ d4ez9pUJMEKD5vMlcVChx4lPGLjPUqqafnKQ
+
+
+----==_mimepart_59c5b3ed10919_57b893d2081034a4
+Content-Type: multipart/alternative;
+ boundary="----------=_1506128877-19653-820"
+Content-Transfer-Encoding: 7bit
+
+This is a multi-part message in MIME format...
+------------=_1506128877-19653-820
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Guten Tag!
+
+Wir haben eine EDI-Datei fuer Sie generiert:
+
+Lieferschein No. 108131
+
+Diese Nachricht wurde automatisch versandt. Bei Fragen wenden Sie sich an support@nile.ch.
+
+freundliche Gruesse
+BLISS
+
+Server: sv11
+------------=_1506128877-19653-820
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Content-ID: <59c7c0626284a_d7f3ff7b3c3e54816579@DiscoveryTwo.local.mail>
+
+<html><body>
+<p>Guten Tag!</p>
+<p>Wir haben eine EDI-Datei fuer Sie generiert:</p>
+<p>Lieferschein No. 108131</p>
+<p>Diese Nachricht wurde automatisch versandt. Bei Fragen wenden Sie sich an support@nile.ch.</p>
+<p>freundliche Gruesse BLISS</p>
+<p>Server: sv11</p>
+
+<img src="https://u5066301.ct.sendgrid.net/wf/open?upn=u1dXoHEBDtTnVDLc9VfKCsVE9PljVIywfrIZ3hKBpnrhUoEn7YyKc3yeRt2g1iKT9AWL2CyiJ5nT8-2FSDoJ8dZPhUPW8dcyS06GqBpeV-2FApI-2FVJaehrNjR5gEB-2BnRQIgvm2w97h3Rufb-2FSk45ws940tYz3-2Fij0WYrUxVaZ-2BmK-2Fj2sRyplUNnhBb9gV3RcISr-2Fp1lm-2B2k210I8K2OAUabSFA-3D-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/>
+</body></html>
+
+------------=_1506128877-19653-820--
+
+----==_mimepart_59c5b3ed10919_57b893d2081034a4
+Content-Type: application/download
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=desadv_108131_1506128877.edi
+Content-ID: <59c5b3ed1165d_57b893d208103697@sv11.mail>
+
+VU5BOisuPyAnVU5CK1VOT0M6Mys3NjEzMDY3MDAwMDAwOjE0KzQzOTk5MDE1
+MTI4MTgrMTcwOTIzOjAzMDcrMTY3OTQrK0RFU0FEVisrK0VBTkNPTSdVTkgr
+MStERVNBRFY6RDo5NkE6VU46RUFOMDA1J0JHTSszNTErREVMMDAxMDgxMzEr
+OSdEVE0rMTM3OjIwMTcwOTIzOjEwMidEVE0rMTE6MjAxNzA5MjM6MTAyJ1JG
+RitWTjo0Njk2MCdOQUQrU1UrNzYxMzA2NzAwMDAwMDo6OSdOQUQrTUYrNzYx
+MzA2NzAwMDAwMDo6OSdOQUQrQlkrNDM5OTkwMTUxMjgxODo6OSdOQUQrRFAr
+NDM5OTkwMTUxMjgxODo6OSdOQUQrVUMrNDM5OTkwMTUxMjgxODo6OSdDUFMr
+MSdMSU4rMSsrNzYxMzA2NzA0ODQwODpFTidRVFkrMTI6MTpQQ0UnTElOKzIr
+Kzc2MTMwNjcwMzM5NTQ6RU4nUVRZKzEyOjE6UENFJ0xJTiszKys3NjEzMDY3
+MjY0MjU5OkVOJ1FUWSsxMjoxOlBDRSdDTlQrMTozJ0NOVCsyOjMnVU5UKzIw
+KzEnVU5aKzErMTY3OTQn
+
+----==_mimepart_59c5b3ed10919_57b893d2081034a4--

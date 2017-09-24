@@ -1,14 +1,28 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "mail/cralwer"
+require "fde/mail_crawler"
+
+require 'dotenv'
+
+Dotenv.load('.test.env')
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
 
 # (If you use this, don't forget to add pry to your Gemfile!)
-# require "pry"
-# Pry.start
+require "pry"
+
+FDE::MailCrawler.configure do |config|
+  config.address = ENV.fetch('MAIL_ADDRESS')
+  config.port = ENV.fetch('MAIL_PORT')
+  config.domain = ENV.fetch('MAIL_DOMAIN')
+  config.user_name = ENV.fetch('MAIL_USER_NAME')
+  config.password = ENV.fetch('MAIL_PASSWORD')
+  config.authentication = ENV.fetch('MAIL_AUTHENTICATION')
+  config.enable_starttls_auto = ENV.fetch('MAIL_ENABLE_STARTTLS_AUTO')
+end
+
 
 require "irb"
 IRB.start(__FILE__)
