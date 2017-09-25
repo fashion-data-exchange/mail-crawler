@@ -53,7 +53,7 @@ module FDE
     def self.delete(message_to_delete)
       account = FDE::MailCrawler.imap_account
       account.find_and_delete do |message|
-        if message.subject == message_to_delete.subject
+        unless message.subject == message_to_delete.subject
           message.skip_deletion
         end
       end
