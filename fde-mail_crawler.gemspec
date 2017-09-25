@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "fde/mail_crawler/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "mail-cralwer"
+  spec.name          = "fde-mail_crawler"
   spec.version       = FDE::MailCrawler::VERSION
   spec.authors       = ["Felix Langenegger"]
   spec.email         = ["f.langenegger@fadendaten.ch"]
