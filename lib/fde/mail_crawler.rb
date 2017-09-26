@@ -31,7 +31,7 @@ module FDE
     end
 
     def self.imap_account
-      @@imap_account ||= Mail.defaults do
+      @@imap_account ||= ::Mail.defaults do
         retriever_method :imap, FDE::MailCrawler.config.attributes
       end
     end
