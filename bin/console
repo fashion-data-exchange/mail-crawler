@@ -19,6 +19,7 @@ FDE::MailCrawler.configure do |config|
   config.domain = ENV.fetch('MAIL_DOMAIN')
   config.user_name = ENV.fetch('MAIL_USER_NAME')
   config.password = ENV.fetch('MAIL_PASSWORD')
+  config.enable_ssl = ENV.fetch('MAIL_ENABLE_SSL')
   config.authentication = ENV.fetch('MAIL_AUTHENTICATION')
   config.enable_starttls_auto = ENV.fetch('MAIL_ENABLE_STARTTLS_AUTO')
 end
