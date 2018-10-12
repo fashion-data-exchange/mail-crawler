@@ -17,6 +17,7 @@ RSpec.describe FDE::MailCrawler do
         domain: 'example.com',
         user_name: 'example@example.com',
         password: 'secret',
+        enable_ssl: 'true',
         authentication: 'plain',
         enable_starttls_auto: 'false'
       }

@@ -10,6 +10,7 @@ module FDE
         :domain,
         :user_name,
         :password,
+        :enable_ssl,
         :authentication,
         :enable_starttls_auto
 
@@ -20,6 +21,7 @@ module FDE
           domain: @domain,
           user_name: @user_name,
           password: @password,
+          enable_ssl: @enable_ssl,
           authentication: @authentication,
           enable_starttls_auto: @enable_starttls_auto
         }
